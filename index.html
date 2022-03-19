@@ -1,123 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afua's Decor</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
+
 <body>
     <header>
-        <nav id="navbar">
-            <ul id="ul">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#what_we_do">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div id="navbar2" class="dropdown">
-                <button class="dropbtn">MENU</button>
-                <div class="dropdown-content">
-                    <a href="#home">Home</a><br><br>
-                    <a href="#what_we_do">Services</a><br><br>
-                    <a href="#contact">Contact</a>
+        <nav class="navbar navbar-expand navbar-light fixed-top">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse flex-row-reverse">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-light" href="#carouselExampleFade">Home</a>
+                        <a class="nav-link text-light" href="#services">Services</a>
+                        <a class="nav-link text-light" href="#contact">Contact</a>
+                    </div>
                 </div>
             </div>
         </nav>
+
     </header>
 
-<main>
-    <section id="home">
-        <div id="homediv">
-        <h1 id="hometext">
-            Afua's Decor
-        </h1>
-        <p id="little_about">
-            The event you imagine, brought to life<br>
-            Life is an Event. Make it Memorable. Make it Happen.
-        </p>
-        </div>
-    </section>
-    <section id="what_we_do">
-        <h2 id="what_we_do_h2">What we do...</h2>
-        <div id="flex1">
-        <p id="what_we_do_p">We help you plan your event, we decorate and we cater.
-            We handle small but memorable events for less than 250 guests.
-            </p>
-        <img src="./images/what_we_do.jpeg" alt="Decor Picture" id="picture1">
-        </div>
-    </section>
-
-    <section id="what_we_do1">
-        <div id="more_pics" class="more_pics">
-            <h2 class="more_pics">
-                Here are a few of our works
-            </h2>
-        </div>
-        <div class="pictures">
-           <img class="img2 space1 blur_pic" src="./images/event1.jpg" alt="Decorated Table">
-           <img class="img2 space2 blur_pic eee" src="./images/eee.jpeg" alt="Decorated area for bride and groom">
-           <div class="space3 space_div">
-               <h3>Decor for your indoor and outdoor receptions</h3>
+    <main>
+        <section id="home" class="text-center">
+            <div>
+                <h1>Afua's Decor</h1>
+                <p> The event you imagine, brought to life<br>
+                    Life is an Event. Make it Memorable. Make it Happen.
+                </p>
             </div>
-           <div class="space4 space_div">
-            <h3>Decor for simple parties at home, such as an anniversary</h3>
-           </div>
-           <img class="img2 space5 blur_pic" src="./images/event3.jpeg" alt="Decorated tables and chairs">
-           <img class="img2 space6 blur_pic" src="./images/event4.jpg" alt="Coconuts with straws">
-           <div class="space7 space_div">
-            <h3>Coconut Cocktail</h3>
-           </div>
-           <div class="space8 space_div">
-            <h3>Outdoor Receptions</h3>
-           </div>
-           <img class="img2 space9 blur_pic" src="./images/event5.jpg" alt="Decorated tables and chairs">
-           <img class="img2 space10 blur_pic" src="./images/event6.jpg" alt="Decor">
-           <div class="space11 space_div"></div>
-           <img class="img2 space12 blur_pic" src="./images/event7.jpeg" alt="Decor">
-           <div class="space13 space_div"></div>
-        </div>      
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="contactinfo">
-            <h2 id="contact_us">Contact us...</h2>
-            <div id= "contact_grid">
-                 <div class="flex2">
-                 <img id="email" class="img" src="./images/SharedScreenshot.jpg" alt="email logo">
-                 <p class="flex_p">afuasdecor@gmail.com</p>
-                 </div>
-                 <div class="flex2">
-                 <img id="phone" class="img" src="./images/SharedScreenshot2.jpg" alt="phone logo">
-                 <p class="flex_p">+233509225870</p>
-                 </div>
+        <section id="what_we_do">
+            <h2 class="ps-4">What we do</h2>
+            <div class="container-fluid container-fluid row">
+                <div class="col-6">
+                    <p>We help you plan your event, we decorate and we cater.
+                        We handle small but memorable events for less than 250 guests.</p>
+                </div>
+                <div class="col-6">
+                    <img src="./images/what_we_do.jpeg" alt="Decor Picture" id="picture1">
+                </div>
             </div>
+        </section>
 
-            <div id= "contact_grid2">
-                <div class="flex2">
-                <img id="email" class="img" src="./images/SharedScreenshot.jpg" alt="email logo">
-                <p class="flex_p">afuasdecor@gmail.com</p>
+        <section id="works">
+            <h2 class="text-center">Here are a few of our works</h2>
+            <div class="pictures p-sm-5 pt-5 mt-5 text-center">
+                <div class="container-fluid row">
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/event1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/eee.jpeg" alt="">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/event3.jpeg" alt="">
+                    </div>
                 </div>
-                <div class="flex2">
-                <img id="phone" class="img" src="./images/SharedScreenshot2.jpg" alt="phone logo">
-                <p class="flex_p">+233509225870</p>
+                <div class="container-fluid row">
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/event4.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/event5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img src="./images/event6.jpg" alt="">
+                    </div>
                 </div>
+                <div class="container-fluid text-center container-fluid row">
+                    <div class="col-12 col-sm-4 offset-sm-4">
+                        <img src="./images/event7.jpeg" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="overlay"></div>
+            <div class="text">
+                <h2 class="pb-5">Contact Us</h2>
+                <ul class="d-flex flex-sm-row flex-column pt-5">
+                    <li class="d-flex"><i class="bi bi-telephone-fill"></i>
+                        <h5><a class="text-decoration-none text-black" href="tel:+233243636913">+233243636913</a></h5>
+                    </li>
+                    <li class="d-flex"><i class="bi bi-envelope-fill"></i>
+                        <h5><a class="text-decoration-none text-black"
+                                href="mailto:aatwumasi1@gmail.com">aatwumasi1@gmail.com</a></h5>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+    <footer class="p-3 text-center">
+        <div id="copyright">
+            &copy; Afua's Decor 2022. All Rights Reserved
            </div>
-
-        </div>
-        </div>
-        <div class="overlay"></div>
-     </section>
-</main>
-<footer>
-    <div>
-        <a style="color: black;" href="#home">Home</a>&nbsp;&nbsp;|&nbsp;
-        <a style="color: black;" href="#what_we_do">Services</a>&nbsp;&nbsp;|&nbsp;
-        <a style="color: black;" href="#contact">Contact</a>
-    </div>
-    <div id="copyright">
-        &copy; Afua's Decor 2021
-       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
